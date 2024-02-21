@@ -5,7 +5,7 @@ import tiktoken
 # pip install transformers
 
 # Configuration
-DIRECTORY_PATH = "/path/to/your/file"  # Replace with the desired directory path
+DIRECTORY_PATH = "/path/to/your/file"  # Replace with the desired absolute directory path
 RECURSIVELY = True  # Set to False if recursive search is not needed
 FILE_EXTENSIONS = ['.txt', '.md', '.ts']  # Add supported file extensions
 ENCODER = 'cl100k_base'  # Replace with the desired encoder
